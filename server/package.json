@@ -1,0 +1,20 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "UPI Sentinel Backend",
+    "type": "module",
+    "scripts": {
+        "dev": " nodemon -r dotenv/config src/app.js",
+        "test": "echo \"No tests yet\""
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.3",
+        "express": "^5.2.1",
+        "pg": "^8.16.3",
+        "multer": "^2.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.11"
+    }
+}
