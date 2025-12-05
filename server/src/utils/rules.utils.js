@@ -80,3 +80,22 @@ export const rules = {
         return { triggered: false, risk: 0 };
     },
 };
+
+export const checkHardcodedRules = (txn) => {
+    let totalScore = 0;
+
+    // 1. Check Grooming
+    const grooming = rules.checkGrooming(txn); // Note: this needs history, which is missing in current service call
+    if (grooming.triggered) totalScore += grooming.risk;
+
+    // 2. Check Ghost Credit
+    const ghost = rules.checkGhostCredit(txn, null); // passing null for now as history fetch is missing
+    if (ghost.triggered) totalScore += ghost.risk;
+
+    // 3. Check Refund Scam
+    const refund = rules.checkRefundScam(txn);
+    if (refund.triggered) totalScore += refund.risk;
+
+    // Normalize to 0.0 - 1.0 range
+    return Math.min(totalScore / 100, 1.0);
+};
