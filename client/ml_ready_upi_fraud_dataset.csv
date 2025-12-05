@@ -1,0 +1,301 @@
+txn_id,timestamp,sender_vpa,receiver_vpa,amount,is_new_counterparty,device_change,location_change,channel,scanned_qr_vpa,merchant_expected_vpa,page_context,requires_pin,anomaly_score,state,sender_in_degree_7d,sender_out_degree_7d,sender_in_out_ratio,fake_claim_count_user_7d,is_screen_recording_on,is_remote_access_app_running,is_call_active_during_payment,fraud,qr_fraud,mule_fraud,coercion_fraud
+TXN100001,2025-12-01T22:59:38,user37@upi,user74@upi,1903.82,False,True,False,intent,,,normal_payment,False,0.385,Haryana,1,3,0.25,0,True,False,False,0,0,0,0
+TXN100002,2025-12-06T18:01:28,user82@upi,merchant7@upi,3128.02,True,False,False,collect,,,refund_page,True,0.925,Maharashtra,10,29,1.0,0,False,True,False,1,0,1,0
+TXN100003,2025-12-05T21:58:04,user1@upi,merchant48@upi,50.0,True,True,True,intent,,,normal_payment,False,0.366,Gujarat,3,2,1.0,0,True,True,True,0,0,0,0
+TXN100004,2025-12-04T09:43:53,user89@upi,merchant43@upi,503.36,True,True,True,qr,merchant43@upi,merchant43@upi,support_chat,True,0.242,Gujarat,1,3,0.25,0,False,False,False,0,0,0,0
+TXN100005,2025-12-04T08:44:47,user54@upi,merchant34@upi,1077.11,True,False,True,collect,,,normal_payment,True,0.269,Tamil Nadu,3,2,1.0,0,True,False,True,0,0,0,0
+TXN100006,2025-12-07T08:14:40,user14@upi,merchant32@upi,3461.18,False,False,False,qr,fraud34@upi,merchant32@upi,normal_payment,True,0.752,Tamil Nadu,0,2,0.0,1,True,False,False,1,1,0,0
+TXN100007,2025-12-01T22:26:19,user30@upi,merchant22@upi,2282.59,True,True,False,qr,merchant22@upi,merchant22@upi,normal_payment,False,0.305,Telangana,1,1,0.5,1,True,False,True,0,0,0,0
+TXN100008,2025-12-06T05:09:28,user55@upi,merchant24@upi,2767.32,True,False,True,intent,,,normal_payment,False,0.542,UP,0,3,0.0,0,True,True,True,0,0,0,0
+TXN100009,2025-12-02T17:50:48,user32@upi,merchant17@upi,859.84,True,False,True,collect,,,screen_share_suspected,True,0.346,Delhi,0,3,0.0,0,True,False,True,0,0,0,0
+TXN100010,2025-12-01T23:49:18,user11@upi,merchant19@upi,880.46,True,False,False,collect,,,normal_payment,True,0.0,Tamil Nadu,1,4,0.2,0,True,False,True,0,0,0,0
+TXN100011,2025-12-05T00:26:54,user66@upi,merchant22@upi,2447.81,True,False,True,qr,fraud2@upi,merchant22@upi,normal_payment,True,0.768,Delhi,0,1,0.0,0,True,True,False,1,1,0,0
+TXN100012,2025-12-08T03:54:16,user67@upi,user38@upi,2058.27,True,True,True,qr,user38@upi,,support_chat,False,0.371,Delhi,0,1,0.0,0,True,False,False,0,0,0,0
+TXN100013,2025-12-06T11:36:23,user12@upi,merchant39@upi,2548.74,True,False,False,mandate,,,normal_payment,False,0.38,Tamil Nadu,2,2,0.67,0,True,True,True,0,0,0,0
+TXN100014,2025-12-06T15:52:17,user28@upi,user94@upi,1812.33,True,True,False,qr,user94@upi,,normal_payment,True,0.136,Telangana,0,0,0.0,0,True,True,True,0,0,0,0
+TXN100015,2025-12-06T08:32:10,user25@upi,merchant38@upi,2278.14,True,False,True,qr,merchant38@upi,merchant38@upi,normal_payment,False,0.375,Delhi,1,2,0.33,0,True,False,False,0,0,0,0
+TXN100016,2025-12-06T20:03:31,user66@upi,merchant17@upi,2158.12,False,True,True,qr,merchant17@upi,merchant17@upi,screen_share_suspected,True,0.993,Gujarat,1,6,0.14,1,True,True,True,1,0,0,1
+TXN100017,2025-12-04T22:13:19,user73@upi,user49@upi,2777.77,False,False,False,intent,,,refund_page,False,0.797,Telangana,35,22,1.0,0,False,True,True,1,0,1,0
+TXN100018,2025-12-02T05:31:23,user72@upi,user65@upi,2807.01,True,False,False,collect,,,normal_payment,False,0.087,Tamil Nadu,1,1,0.5,0,True,True,False,0,0,0,0
+TXN100019,2025-12-07T05:04:39,user93@upi,merchant38@upi,380.13,False,True,True,collect,,,normal_payment,False,0.124,Karnataka,3,1,1.5,0,False,False,False,0,0,0,0
+TXN100020,2025-12-04T11:39:53,user77@upi,merchant32@upi,50.0,False,False,False,collect,,,normal_payment,True,0.154,Gujarat,0,1,0.0,0,True,False,True,0,0,0,0
+TXN100021,2025-12-04T20:03:32,user32@upi,user4@upi,3001.75,True,False,True,qr,user4@upi,,normal_payment,True,0.126,Maharashtra,2,2,0.67,0,False,False,True,0,0,0,0
+TXN100022,2025-12-03T22:17:38,user11@upi,user21@upi,3187.73,True,True,True,qr,user21@upi,,normal_payment,False,0.066,Tamil Nadu,1,4,0.2,0,True,False,False,0,0,0,0
+TXN100023,2025-12-02T14:40:06,user61@upi,user91@upi,979.38,True,False,True,intent,,,support_chat,False,0.0,Karnataka,2,1,1.0,0,False,False,True,0,0,0,0
+TXN100024,2025-12-07T19:41:47,user91@upi,user14@upi,140.16,False,False,False,qr,user14@upi,,normal_payment,True,0.135,Telangana,1,0,1.0,0,True,True,True,0,0,0,0
+TXN100025,2025-12-06T19:18:11,user97@upi,merchant31@upi,2099.03,False,False,False,qr,merchant31@upi,merchant31@upi,refund_page,False,0.255,Maharashtra,1,6,0.14,0,True,True,False,0,0,0,0
+TXN100026,2025-12-05T20:10:09,user23@upi,merchant36@upi,2930.84,True,True,False,qr,fraud43@upi,merchant36@upi,normal_payment,True,0.948,Haryana,1,0,1.0,0,False,False,False,1,1,0,0
+TXN100027,2025-12-04T03:36:20,user24@upi,user72@upi,3797.59,True,True,True,qr,user72@upi,,normal_payment,False,0.49,Maharashtra,1,2,0.33,0,True,False,True,0,0,0,0
+TXN100028,2025-12-07T02:13:26,user4@upi,user14@upi,2516.3,False,True,False,intent,,,normal_payment,False,0.202,Tamil Nadu,0,0,0.0,0,False,False,False,0,0,0,0
+TXN100029,2025-12-05T03:37:55,user14@upi,user41@upi,1628.28,True,True,False,collect,,,support_chat,False,0.394,Haryana,1,2,0.33,0,True,False,False,0,0,0,0
+TXN100030,2025-12-04T10:29:36,user55@upi,user59@upi,1106.87,False,False,False,qr,user59@upi,,screen_share_suspected,True,0.239,Gujarat,0,0,0.0,0,True,True,False,0,0,0,0
+TXN100031,2025-12-04T11:40:37,user55@upi,user93@upi,2011.45,True,False,False,intent,,,normal_payment,False,0.324,Karnataka,1,2,0.33,1,False,False,True,0,0,0,0
+TXN100032,2025-12-02T22:10:33,user37@upi,merchant47@upi,1700.74,True,False,False,collect,,,normal_payment,True,0.242,Haryana,1,4,0.2,1,False,False,False,0,0,0,0
+TXN100033,2025-12-01T23:28:43,user31@upi,merchant3@upi,984.93,True,False,True,collect,,,screen_share_suspected,False,0.703,Telangana,18,8,1.0,0,False,True,True,1,0,1,0
+TXN100034,2025-12-05T05:10:12,user83@upi,user10@upi,4048.76,True,False,True,collect,,,normal_payment,False,0.643,Telangana,16,22,1.0,0,False,False,True,1,0,1,0
+TXN100035,2025-12-07T13:09:55,user46@upi,merchant7@upi,3785.17,False,True,False,intent,,,normal_payment,True,0.274,Maharashtra,1,4,0.2,0,False,False,False,0,0,0,0
+TXN100036,2025-12-01T18:43:16,user81@upi,merchant28@upi,3136.05,False,True,False,collect,,,normal_payment,True,0.255,Haryana,1,3,0.25,0,True,False,False,0,0,0,0
+TXN100037,2025-12-07T08:11:34,user96@upi,merchant34@upi,1079.15,False,True,False,qr,merchant34@upi,merchant34@upi,refund_page,False,0.157,Haryana,0,3,0.0,0,True,True,False,0,0,0,0
+TXN100038,2025-12-07T03:02:31,user32@upi,user52@upi,2855.02,True,True,True,qr,user52@upi,,support_chat,False,0.261,UP,0,1,0.0,0,False,False,False,0,0,0,0
+TXN100039,2025-12-03T06:29:44,user21@upi,user52@upi,2639.63,True,True,False,qr,user52@upi,,normal_payment,False,0.768,UP,13,22,1.0,0,False,True,True,1,0,1,0
+TXN100040,2025-12-05T18:07:10,user95@upi,merchant25@upi,2442.55,True,False,True,qr,fraud22@upi,merchant25@upi,loan_offer_page,True,0.833,Karnataka,1,2,0.33,0,False,True,True,1,1,0,0
+TXN100041,2025-12-02T11:45:30,user63@upi,user84@upi,3249.67,False,True,False,qr,user84@upi,,normal_payment,False,0.263,Tamil Nadu,1,5,0.17,0,True,False,True,0,0,0,0
+TXN100042,2025-12-06T15:21:31,user29@upi,merchant6@upi,2635.37,False,True,False,qr,merchant6@upi,merchant6@upi,normal_payment,False,0.389,Maharashtra,1,5,0.17,0,False,True,True,0,0,0,0
+TXN100043,2025-12-06T05:41:16,user62@upi,merchant24@upi,2740.01,True,False,True,collect,,,normal_payment,False,0.925,Delhi,26,12,1.0,0,False,True,True,1,0,1,0
+TXN100044,2025-12-03T19:33:37,user51@upi,merchant33@upi,2636.91,True,False,True,qr,merchant33@upi,merchant33@upi,normal_payment,True,0.836,Tamil Nadu,21,19,1.0,0,False,False,True,1,0,1,0
+TXN100045,2025-12-01T19:24:38,user90@upi,user21@upi,2340.79,True,True,True,qr,user21@upi,,screen_share_suspected,False,0.79,Gujarat,0,2,0.0,1,True,True,True,1,0,0,1
+TXN100046,2025-12-08T03:04:38,user26@upi,merchant33@upi,216.39,False,False,True,qr,merchant33@upi,merchant33@upi,normal_payment,True,0.278,Haryana,0,5,0.0,0,True,False,False,0,0,0,0
+TXN100047,2025-12-04T10:52:31,user99@upi,user81@upi,2083.62,False,True,True,intent,,,normal_payment,False,0.671,Telangana,11,17,1.0,0,False,False,True,1,0,1,0
+TXN100048,2025-12-07T14:02:39,user93@upi,merchant38@upi,1443.81,True,True,True,qr,merchant38@upi,merchant38@upi,support_chat,False,0.675,Haryana,29,15,1.0,0,True,True,False,1,0,1,0
+TXN100049,2025-12-06T01:53:25,user18@upi,merchant27@upi,720.16,True,False,False,qr,merchant27@upi,merchant27@upi,normal_payment,False,0.225,UP,0,4,0.0,0,True,False,True,0,0,0,0
+TXN100050,2025-12-06T18:46:06,user17@upi,merchant16@upi,3681.82,False,False,False,qr,merchant16@upi,merchant16@upi,screen_share_suspected,False,0.774,Maharashtra,0,5,0.0,1,True,True,True,1,0,0,1
+TXN100051,2025-12-06T15:39:47,user53@upi,merchant5@upi,3729.0,True,False,False,collect,,,refund_page,False,0.065,Maharashtra,0,4,0.0,0,False,False,True,0,0,0,0
+TXN100052,2025-12-02T16:41:57,user5@upi,merchant46@upi,3359.22,False,False,False,mandate,,,refund_page,True,0.0,Haryana,1,2,0.33,0,True,False,True,0,0,0,0
+TXN100053,2025-12-03T21:08:10,user30@upi,merchant7@upi,2255.21,False,False,False,intent,,,support_chat,False,0.239,UP,1,0,1.0,0,False,True,False,0,0,0,0
+TXN100054,2025-12-04T14:24:32,user44@upi,merchant36@upi,3350.63,True,True,False,intent,,,support_chat,True,0.195,Tamil Nadu,0,1,0.0,0,True,True,True,0,0,0,0
+TXN100055,2025-12-04T19:37:44,user96@upi,user36@upi,2012.05,True,False,False,collect,,,support_chat,False,0.126,Haryana,1,1,0.5,0,True,False,True,0,0,0,0
+TXN100056,2025-12-01T15:21:32,user99@upi,merchant39@upi,2202.8,True,False,True,mandate,,,screen_share_suspected,False,0.755,Telangana,0,0,0.0,0,True,True,True,1,0,0,1
+TXN100057,2025-12-05T03:49:25,user16@upi,merchant32@upi,906.53,False,False,False,intent,,,screen_share_suspected,False,0.822,UP,0,1,0.0,1,True,True,True,1,0,0,1
+TXN100058,2025-12-02T09:55:14,user89@upi,user98@upi,2396.99,True,True,True,collect,,,refund_page,False,0.325,Karnataka,3,2,1.0,0,True,False,True,0,0,0,0
+TXN100059,2025-12-06T12:53:13,user10@upi,user42@upi,2060.39,True,False,False,mandate,,,normal_payment,True,0.357,Gujarat,0,1,0.0,0,True,True,True,0,0,0,0
+TXN100060,2025-12-06T02:45:08,user75@upi,user12@upi,697.35,True,False,True,collect,,,normal_payment,False,0.327,UP,1,3,0.25,0,False,True,False,0,0,0,0
+TXN100061,2025-12-07T18:59:04,user84@upi,user13@upi,1948.8,False,True,True,intent,,,screen_share_suspected,True,0.719,Haryana,1,1,0.5,0,True,True,True,1,0,0,1
+TXN100062,2025-12-06T13:07:12,user89@upi,merchant6@upi,1920.27,True,False,False,qr,fraud46@upi,merchant6@upi,screen_share_suspected,True,0.963,Haryana,1,3,0.25,0,True,True,True,1,0,0,1
+TXN100063,2025-12-03T21:35:45,user23@upi,user54@upi,3797.56,True,False,False,qr,user54@upi,,screen_share_suspected,True,0.827,Delhi,0,4,0.0,0,True,True,True,1,0,0,1
+TXN100064,2025-12-08T02:32:29,user89@upi,merchant1@upi,2894.21,True,False,True,qr,fraud15@upi,merchant1@upi,normal_payment,False,0.778,UP,2,2,0.67,0,True,True,False,1,1,0,0
+TXN100065,2025-12-04T05:01:22,user12@upi,user43@upi,2011.45,False,False,True,intent,,,support_chat,False,0.322,UP,1,4,0.2,0,False,False,True,0,0,0,0
+TXN100066,2025-12-03T14:44:19,user52@upi,merchant15@upi,2248.79,True,False,False,intent,,,screen_share_suspected,True,0.055,Haryana,3,3,0.75,0,True,True,False,0,0,0,0
+TXN100067,2025-12-07T16:07:48,user47@upi,merchant1@upi,2044.21,False,True,True,intent,,,normal_payment,False,0.174,Delhi,1,3,0.25,0,False,True,False,0,0,0,0
+TXN100068,2025-12-03T22:14:14,user32@upi,user30@upi,1797.09,False,False,True,intent,,,screen_share_suspected,False,0.096,Haryana,1,1,0.5,0,False,True,False,0,0,0,0
+TXN100069,2025-12-01T20:49:32,user3@upi,user54@upi,917.57,True,False,False,collect,,,normal_payment,True,0.425,Haryana,0,2,0.0,1,False,False,False,0,0,0,0
+TXN100070,2025-12-04T14:53:07,user77@upi,user11@upi,1848.95,False,False,False,qr,user11@upi,,screen_share_suspected,True,0.312,Haryana,1,2,0.33,1,True,True,False,0,0,0,0
+TXN100071,2025-12-06T21:40:27,user34@upi,user68@upi,1253.9,True,True,False,qr,user68@upi,,loan_offer_page,True,0.298,Delhi,2,1,1.0,0,True,True,True,0,0,0,0
+TXN100072,2025-12-02T15:49:52,user66@upi,user29@upi,749.68,False,True,True,collect,,,normal_payment,False,0.293,UP,0,5,0.0,0,False,True,True,0,0,0,0
+TXN100073,2025-12-04T13:46:26,user41@upi,merchant33@upi,2511.22,True,False,True,collect,,,support_chat,True,0.194,Maharashtra,1,3,0.25,0,True,False,True,0,0,0,0
+TXN100074,2025-12-02T05:49:36,user37@upi,user99@upi,2391.26,True,False,True,qr,fraud30@upi,merchant19@upi,loan_offer_page,False,0.788,UP,2,3,0.5,0,False,False,False,1,1,0,0
+TXN100075,2025-12-06T03:19:42,user88@upi,user62@upi,213.29,True,False,True,collect,,,screen_share_suspected,True,0.022,Karnataka,0,0,0.0,0,True,True,False,0,0,0,0
+TXN100076,2025-12-04T15:55:06,user10@upi,user9@upi,1877.32,False,False,False,collect,,,loan_offer_page,True,0.0,Haryana,2,5,0.33,0,False,False,True,0,0,0,0
+TXN100077,2025-12-03T15:28:22,user73@upi,merchant13@upi,2995.7,False,False,False,qr,merchant13@upi,merchant13@upi,normal_payment,True,0.223,Tamil Nadu,2,0,2.0,0,True,True,False,0,0,0,0
+TXN100078,2025-12-02T22:07:14,user74@upi,merchant12@upi,3059.22,False,False,False,qr,fraud30@upi,merchant12@upi,normal_payment,True,0.851,Tamil Nadu,1,1,0.5,0,False,True,True,1,1,0,0
+TXN100079,2025-12-05T06:50:09,user38@upi,user81@upi,3025.84,False,True,False,qr,user81@upi,,support_chat,False,0.381,Gujarat,0,1,0.0,0,False,False,False,0,0,0,0
+TXN100080,2025-12-06T00:31:43,user26@upi,user20@upi,2038.91,True,False,True,intent,,,refund_page,False,0.436,Gujarat,0,1,0.0,0,True,True,True,0,0,0,0
+TXN100081,2025-12-07T21:58:17,user1@upi,user91@upi,1154.95,False,False,True,mandate,,,refund_page,False,0.602,Karnataka,38,8,1.0,0,True,True,True,1,0,1,0
+TXN100082,2025-12-04T09:26:29,user93@upi,merchant2@upi,916.3,False,False,False,qr,merchant2@upi,merchant2@upi,normal_payment,False,0.05,Delhi,1,2,0.33,0,False,False,True,0,0,0,0
+TXN100083,2025-12-02T10:59:44,user94@upi,merchant41@upi,2344.6,False,True,True,intent,,,normal_payment,True,0.147,Gujarat,1,4,0.2,1,True,True,False,0,0,0,0
+TXN100084,2025-12-07T03:53:23,user24@upi,user60@upi,2379.28,False,True,True,qr,user60@upi,,normal_payment,False,0.272,Tamil Nadu,0,3,0.0,0,True,True,False,0,0,0,0
+TXN100085,2025-12-05T17:48:01,user4@upi,merchant15@upi,3287.33,True,False,False,qr,merchant15@upi,merchant15@upi,support_chat,True,0.58,UP,1,4,0.2,0,False,False,True,0,0,0,0
+TXN100086,2025-12-06T05:38:40,user13@upi,merchant42@upi,3099.98,True,False,True,qr,fraud17@upi,merchant42@upi,normal_payment,False,0.926,Tamil Nadu,3,2,1.0,0,False,True,False,1,1,0,0
+TXN100087,2025-12-02T00:20:02,user7@upi,user96@upi,1867.77,False,True,True,qr,user96@upi,,support_chat,False,0.368,Delhi,1,0,1.0,0,True,False,True,0,0,0,0
+TXN100088,2025-12-03T12:28:39,user83@upi,user92@upi,755.79,True,True,True,mandate,,,support_chat,False,0.142,Maharashtra,2,4,0.4,0,True,False,False,0,0,0,0
+TXN100089,2025-12-06T16:59:51,user89@upi,user82@upi,1680.89,True,False,True,intent,,,screen_share_suspected,True,0.896,Karnataka,0,3,0.0,0,True,True,True,1,0,0,1
+TXN100090,2025-12-07T03:49:10,user16@upi,merchant42@upi,2217.23,False,True,False,qr,fraud1@upi,merchant42@upi,normal_payment,True,0.822,UP,0,1,0.0,0,True,False,False,1,1,0,0
+TXN100091,2025-12-04T09:06:59,user74@upi,merchant6@upi,1797.92,False,True,True,intent,,,normal_payment,True,0.035,Gujarat,0,2,0.0,0,True,False,True,0,0,0,0
+TXN100092,2025-12-06T23:12:01,user18@upi,merchant7@upi,1422.11,False,False,False,qr,merchant7@upi,merchant7@upi,loan_offer_page,False,0.164,Delhi,3,2,1.0,0,True,False,True,0,0,0,0
+TXN100093,2025-12-07T05:24:15,user37@upi,user55@upi,2252.88,False,True,True,qr,user55@upi,,support_chat,False,0.183,Tamil Nadu,1,2,0.33,1,True,True,True,0,0,0,0
+TXN100094,2025-12-04T01:05:46,user60@upi,user63@upi,1496.04,False,False,False,collect,,,normal_payment,True,0.439,Gujarat,1,1,0.5,0,False,False,False,0,0,0,0
+TXN100095,2025-12-07T14:52:43,user72@upi,merchant40@upi,1371.93,False,False,False,qr,merchant40@upi,merchant40@upi,normal_payment,True,0.147,Delhi,0,1,0.0,0,True,True,False,0,0,0,0
+TXN100096,2025-12-03T08:26:20,user87@upi,merchant36@upi,2311.45,True,False,True,mandate,,,normal_payment,False,0.0,Maharashtra,1,0,1.0,0,True,False,False,0,0,0,0
+TXN100097,2025-12-03T00:14:44,user5@upi,merchant5@upi,1598.01,False,False,False,qr,fraud25@upi,merchant5@upi,normal_payment,True,0.276,Gujarat,1,1,0.5,0,False,False,True,0,0,0,0
+TXN100098,2025-12-06T02:39:33,user20@upi,user71@upi,2244.1,True,True,False,intent,,,screen_share_suspected,False,0.095,Gujarat,0,1,0.0,0,True,False,False,0,0,0,0
+TXN100099,2025-12-05T18:58:33,user28@upi,user51@upi,2273.2,False,False,True,collect,,,support_chat,False,0.206,Maharashtra,3,3,0.75,1,True,False,True,0,0,0,0
+TXN100100,2025-12-02T07:28:42,user31@upi,user6@upi,860.57,False,False,False,qr,user6@upi,,normal_payment,True,0.187,Delhi,3,1,1.5,0,False,False,False,0,0,0,0
+TXN100101,2025-12-07T03:53:59,user99@upi,merchant11@upi,1518.76,True,False,True,qr,merchant11@upi,merchant11@upi,screen_share_suspected,False,0.159,Haryana,0,1,0.0,0,False,True,False,0,0,0,0
+TXN100102,2025-12-02T17:35:04,user77@upi,user88@upi,3437.78,True,True,False,mandate,,,normal_payment,False,0.319,UP,0,2,0.0,0,False,False,True,0,0,0,0
+TXN100103,2025-12-06T23:13:22,user32@upi,merchant19@upi,837.92,True,True,False,qr,merchant19@upi,merchant19@upi,screen_share_suspected,True,0.643,Maharashtra,20,12,1.0,0,False,True,False,1,0,1,0
+TXN100104,2025-12-01T09:14:12,user97@upi,merchant5@upi,50.0,False,True,True,intent,,,normal_payment,True,0.122,Telangana,0,3,0.0,0,False,True,False,0,0,0,0
+TXN100105,2025-12-06T21:52:10,user50@upi,user59@upi,138.15,False,False,False,intent,,,refund_page,False,0.303,Haryana,0,1,0.0,0,False,True,True,0,0,0,0
+TXN100106,2025-12-06T20:12:11,user50@upi,user46@upi,2029.11,False,True,False,qr,user46@upi,,screen_share_suspected,False,0.108,Haryana,1,1,0.5,0,False,False,True,0,0,0,0
+TXN100107,2025-12-06T19:06:04,user43@upi,user87@upi,2030.92,False,True,True,collect,,,normal_payment,True,0.0,Karnataka,3,2,1.0,0,False,True,True,0,0,0,0
+TXN100108,2025-12-05T23:41:41,user15@upi,merchant29@upi,1882.39,True,True,True,collect,,,refund_page,True,0.3,Telangana,1,0,1.0,0,False,True,True,0,0,0,0
+TXN100109,2025-12-04T15:13:23,user93@upi,user54@upi,3214.19,False,False,False,qr,fraud26@upi,merchant48@upi,loan_offer_page,True,0.897,Maharashtra,1,3,0.25,0,True,True,True,1,1,0,0
+TXN100110,2025-12-06T06:28:04,user2@upi,merchant15@upi,50.0,False,True,True,collect,,,normal_payment,True,0.193,Telangana,0,0,0.0,0,False,True,True,0,0,0,0
+TXN100111,2025-12-03T06:33:23,user18@upi,user26@upi,2395.93,True,False,True,qr,user26@upi,,normal_payment,False,0.0,Haryana,1,1,0.5,0,True,False,False,0,0,0,0
+TXN100112,2025-12-06T19:09:44,user23@upi,user65@upi,3561.44,False,False,True,qr,user65@upi,,refund_page,True,0.306,Tamil Nadu,2,3,0.5,0,False,True,False,0,0,0,0
+TXN100113,2025-12-05T05:20:55,user28@upi,merchant23@upi,872.22,False,False,False,intent,,,normal_payment,False,0.0,Maharashtra,1,0,1.0,0,True,False,False,0,0,0,0
+TXN100114,2025-12-04T13:05:52,user14@upi,merchant25@upi,1620.19,False,False,True,mandate,,,normal_payment,False,0.246,Maharashtra,2,0,2.0,0,True,True,True,0,0,0,0
+TXN100115,2025-12-04T20:56:30,user2@upi,merchant7@upi,1247.11,False,False,True,qr,fraud26@upi,merchant7@upi,normal_payment,True,0.067,Tamil Nadu,0,2,0.0,0,True,True,True,0,0,0,0
+TXN100116,2025-12-05T07:32:54,user68@upi,merchant6@upi,1105.65,True,False,True,qr,merchant6@upi,merchant6@upi,support_chat,False,0.813,Tamil Nadu,36,12,1.0,0,False,True,False,1,0,1,0
+TXN100117,2025-12-01T14:15:36,user96@upi,merchant5@upi,1673.74,True,False,False,intent,,,normal_payment,True,0.134,UP,3,1,1.5,0,True,False,True,0,0,0,0
+TXN100118,2025-12-02T07:29:09,user13@upi,merchant15@upi,3427.49,True,True,True,collect,,,normal_payment,False,0.863,Karnataka,17,5,1.0,0,False,False,False,1,0,1,0
+TXN100119,2025-12-03T01:14:27,user30@upi,user40@upi,3837.39,False,False,True,qr,user40@upi,,support_chat,True,0.103,Telangana,0,6,0.0,0,False,True,True,0,0,0,0
+TXN100120,2025-12-02T03:14:27,user51@upi,merchant32@upi,1664.06,True,True,False,qr,merchant32@upi,merchant32@upi,normal_payment,True,0.288,Haryana,0,4,0.0,1,True,True,True,0,0,0,0
+TXN100121,2025-12-04T09:51:18,user92@upi,merchant42@upi,3905.06,True,True,True,collect,,,support_chat,False,0.133,Telangana,1,3,0.25,0,False,False,True,0,0,0,0
+TXN100122,2025-12-06T00:17:30,user69@upi,merchant11@upi,2035.58,False,True,True,qr,merchant11@upi,merchant11@upi,normal_payment,False,0.347,Tamil Nadu,1,4,0.2,0,False,False,True,0,0,0,0
+TXN100123,2025-12-05T21:56:38,user76@upi,merchant46@upi,3753.69,True,True,False,qr,merchant46@upi,merchant46@upi,loan_offer_page,True,0.242,Tamil Nadu,0,4,0.0,0,True,False,True,0,0,0,0
+TXN100124,2025-12-04T15:08:38,user58@upi,merchant2@upi,1906.7,False,False,True,qr,merchant2@upi,merchant2@upi,refund_page,False,0.095,Gujarat,0,1,0.0,0,False,True,False,0,0,0,0
+TXN100125,2025-12-07T07:39:12,user42@upi,merchant8@upi,2131.06,True,True,False,intent,,,screen_share_suspected,False,0.716,Gujarat,0,2,0.0,0,True,True,True,1,0,0,1
+TXN100126,2025-12-05T06:57:34,user20@upi,merchant12@upi,2365.47,True,True,True,intent,,,screen_share_suspected,False,0.0,UP,2,3,0.5,0,False,False,True,0,0,0,0
+TXN100127,2025-12-01T21:18:18,user86@upi,merchant29@upi,5178.85,False,False,True,collect,,,normal_payment,True,0.244,Karnataka,1,1,0.5,0,False,True,False,0,0,0,0
+TXN100128,2025-12-06T16:31:11,user80@upi,user70@upi,2851.29,False,False,True,intent,,,normal_payment,False,0.147,Haryana,0,3,0.0,0,False,False,False,0,0,0,0
+TXN100129,2025-12-05T08:31:58,user3@upi,user62@upi,1292.74,False,True,False,intent,,,normal_payment,True,0.919,Gujarat,14,29,1.0,0,False,True,False,1,0,1,0
+TXN100130,2025-12-05T18:37:57,user71@upi,user32@upi,2969.0,True,False,True,mandate,,,refund_page,False,0.12,Tamil Nadu,3,2,1.0,0,False,False,True,0,0,0,0
+TXN100131,2025-12-05T06:58:57,user9@upi,merchant10@upi,1638.17,False,False,False,intent,,,normal_payment,False,0.065,UP,0,2,0.0,0,False,True,True,0,0,0,0
+TXN100132,2025-12-05T05:00:04,user74@upi,user43@upi,1510.25,True,True,True,intent,,,normal_payment,False,0.436,Gujarat,1,1,0.5,0,False,True,True,0,0,0,0
+TXN100133,2025-12-01T23:12:54,user82@upi,merchant48@upi,2908.6,False,True,True,mandate,,,normal_payment,True,0.0,Karnataka,2,3,0.5,0,False,True,True,0,0,0,0
+TXN100134,2025-12-05T05:56:48,user13@upi,user51@upi,2031.09,False,False,False,qr,fraud2@upi,merchant17@upi,normal_payment,False,0.859,Haryana,2,6,0.29,0,False,False,True,1,1,0,0
+TXN100135,2025-12-06T21:32:43,user43@upi,user13@upi,2278.58,True,True,False,collect,,,screen_share_suspected,False,0.981,UP,2,1,1.0,0,True,True,True,1,0,0,1
+TXN100136,2025-12-03T11:03:49,user13@upi,merchant46@upi,2013.99,True,False,False,collect,,,normal_payment,True,0.404,Telangana,1,2,0.33,0,True,False,True,0,0,0,0
+TXN100137,2025-12-05T13:16:36,user57@upi,merchant14@upi,2336.58,True,True,True,qr,merchant14@upi,merchant14@upi,normal_payment,False,0.088,Delhi,2,3,0.5,0,True,True,False,0,0,0,0
+TXN100138,2025-12-01T13:10:38,user92@upi,merchant40@upi,2424.97,False,True,False,intent,,,normal_payment,False,0.105,Maharashtra,1,2,0.33,0,True,False,True,0,0,0,0
+TXN100139,2025-12-03T18:22:47,user9@upi,user39@upi,63.03,False,False,False,qr,user39@upi,,screen_share_suspected,False,0.792,Delhi,0,2,0.0,0,True,True,True,1,0,0,1
+TXN100140,2025-12-04T09:22:06,user40@upi,merchant25@upi,2666.57,False,False,False,qr,merchant25@upi,merchant25@upi,normal_payment,False,0.0,Maharashtra,0,1,0.0,1,False,False,True,0,0,0,0
+TXN100141,2025-12-08T05:06:00,user97@upi,merchant43@upi,1017.98,True,True,False,intent,,,refund_page,True,0.0,UP,0,1,0.0,0,True,True,True,0,0,0,0
+TXN100142,2025-12-02T20:03:00,user30@upi,merchant42@upi,557.7,True,False,False,qr,merchant42@upi,merchant42@upi,normal_payment,True,0.158,Gujarat,1,4,0.2,0,False,True,True,0,0,0,0
+TXN100143,2025-12-03T06:27:36,user14@upi,merchant28@upi,1941.59,False,False,False,qr,fraud46@upi,merchant28@upi,normal_payment,True,0.88,Tamil Nadu,0,0,0.0,0,True,True,True,1,1,0,0
+TXN100144,2025-12-04T04:37:58,user49@upi,merchant17@upi,2083.98,True,False,False,mandate,,,normal_payment,True,0.135,Telangana,1,1,0.5,0,False,True,True,0,0,0,0
+TXN100145,2025-12-08T06:46:04,user51@upi,merchant4@upi,1306.49,False,True,True,collect,,,normal_payment,False,0.215,Karnataka,1,1,0.5,0,False,True,True,0,0,0,0
+TXN100146,2025-12-07T07:22:18,user66@upi,merchant37@upi,2831.03,True,False,False,qr,merchant37@upi,merchant37@upi,normal_payment,False,0.37,Maharashtra,0,1,0.0,0,True,False,False,0,0,0,0
+TXN100147,2025-12-01T13:49:42,user32@upi,user70@upi,657.82,True,True,True,qr,user70@upi,,screen_share_suspected,False,0.853,Delhi,1,4,0.2,0,True,True,True,1,0,0,1
+TXN100148,2025-12-02T23:18:06,user95@upi,merchant42@upi,1593.06,True,True,True,qr,merchant42@upi,merchant42@upi,normal_payment,True,0.113,Maharashtra,0,1,0.0,0,True,False,True,0,0,0,0
+TXN100149,2025-12-07T02:02:28,user52@upi,merchant12@upi,1415.13,False,False,True,qr,fraud23@upi,merchant12@upi,normal_payment,False,0.197,Tamil Nadu,5,2,1.67,0,False,False,True,0,0,0,0
+TXN100150,2025-12-01T17:47:41,user29@upi,merchant30@upi,1953.41,True,True,False,mandate,,,screen_share_suspected,True,0.8,Maharashtra,2,3,0.5,0,True,True,True,1,0,0,1
+TXN100151,2025-12-07T07:45:09,user96@upi,merchant25@upi,2278.86,False,True,False,intent,,,normal_payment,False,0.0,Karnataka,0,2,0.0,0,True,False,True,0,0,0,0
+TXN100152,2025-12-03T07:16:20,user92@upi,user95@upi,992.11,True,False,True,qr,user95@upi,,normal_payment,True,0.354,Tamil Nadu,0,2,0.0,0,False,False,True,0,0,0,0
+TXN100153,2025-12-07T18:09:56,user50@upi,user43@upi,2724.28,False,True,True,collect,,,normal_payment,False,0.047,Telangana,3,3,0.75,0,True,False,True,0,0,0,0
+TXN100154,2025-12-03T09:19:25,user3@upi,user31@upi,2063.0,True,False,True,qr,user31@upi,,normal_payment,True,0.658,Maharashtra,16,16,1.0,0,False,True,False,1,0,1,0
+TXN100155,2025-12-04T08:57:54,user60@upi,user75@upi,108.05,False,False,False,qr,user75@upi,,normal_payment,True,0.164,Delhi,1,1,0.5,0,True,True,True,0,0,0,0
+TXN100156,2025-12-05T23:12:07,user55@upi,user39@upi,50.0,False,False,False,qr,fraud7@upi,merchant4@upi,support_chat,True,0.731,UP,5,1,2.5,0,True,True,False,1,1,0,0
+TXN100157,2025-12-02T05:12:54,user15@upi,merchant34@upi,1987.68,True,True,False,intent,,,screen_share_suspected,False,0.713,UP,0,3,0.0,0,True,True,True,1,0,0,1
+TXN100158,2025-12-05T05:34:53,user63@upi,merchant11@upi,1779.03,True,True,False,collect,,,normal_payment,False,0.241,Telangana,0,5,0.0,0,True,False,True,0,0,0,0
+TXN100159,2025-12-04T20:50:33,user84@upi,merchant35@upi,1896.58,False,False,True,qr,merchant35@upi,merchant35@upi,refund_page,True,0.349,Haryana,1,1,0.5,0,False,True,True,0,0,0,0
+TXN100160,2025-12-06T19:41:41,user11@upi,user17@upi,1972.02,True,True,False,mandate,,,support_chat,False,0.181,Karnataka,0,1,0.0,0,False,True,False,0,0,0,0
+TXN100161,2025-12-08T07:20:45,user72@upi,user95@upi,2225.56,False,True,False,collect,,,normal_payment,True,0.211,Haryana,1,2,0.33,0,True,False,False,0,0,0,0
+TXN100162,2025-12-05T23:36:16,user14@upi,user56@upi,2947.65,False,True,True,collect,,,screen_share_suspected,True,0.735,UP,3,2,1.0,0,True,True,True,1,0,0,1
+TXN100163,2025-12-04T04:44:35,user75@upi,user65@upi,888.9,False,True,True,qr,user65@upi,,refund_page,True,0.054,UP,0,1,0.0,0,False,False,True,0,0,0,0
+TXN100164,2025-12-04T04:16:22,user42@upi,merchant7@upi,828.03,False,False,False,qr,merchant7@upi,merchant7@upi,screen_share_suspected,True,0.311,UP,1,1,0.5,0,False,True,True,0,0,0,0
+TXN100165,2025-12-04T06:13:01,user1@upi,merchant17@upi,906.68,False,True,False,collect,,,loan_offer_page,True,0.323,Telangana,1,3,0.25,0,False,False,False,0,0,0,0
+TXN100166,2025-12-07T00:45:19,user96@upi,user8@upi,2288.92,False,False,True,qr,fraud38@upi,merchant44@upi,normal_payment,False,0.968,Tamil Nadu,0,2,0.0,0,True,True,False,1,1,0,0
+TXN100167,2025-12-03T13:57:51,user17@upi,merchant24@upi,3244.95,False,False,True,intent,,,normal_payment,False,0.144,Delhi,2,2,0.67,0,True,False,True,0,0,0,0
+TXN100168,2025-12-02T12:03:05,user60@upi,merchant23@upi,1568.66,False,False,True,collect,,,normal_payment,False,0.131,Delhi,1,0,1.0,0,True,True,False,0,0,0,0
+TXN100169,2025-12-03T16:09:39,user18@upi,merchant12@upi,50.0,False,True,True,qr,merchant12@upi,merchant12@upi,normal_payment,False,0.315,Gujarat,1,0,1.0,0,False,True,False,0,0,0,0
+TXN100170,2025-12-01T11:48:56,user93@upi,merchant45@upi,296.01,True,True,True,collect,,,normal_payment,True,0.323,Haryana,0,2,0.0,0,False,True,False,0,0,0,0
+TXN100171,2025-12-02T01:49:55,user74@upi,merchant10@upi,1166.96,True,False,False,mandate,,,loan_offer_page,False,0.12,Haryana,0,1,0.0,0,False,False,True,0,0,0,0
+TXN100172,2025-12-01T23:07:40,user80@upi,merchant15@upi,1442.27,False,False,False,collect,,,normal_payment,False,0.794,Maharashtra,13,15,1.0,0,False,True,False,1,0,1,0
+TXN100173,2025-12-06T17:37:14,user43@upi,merchant36@upi,1591.61,False,False,True,qr,fraud17@upi,merchant36@upi,normal_payment,True,0.96,Delhi,0,1,0.0,0,False,True,False,1,1,0,0
+TXN100174,2025-12-06T09:21:22,user47@upi,merchant25@upi,2038.58,True,True,False,collect,,,support_chat,True,0.076,Gujarat,1,4,0.2,0,True,False,False,0,0,0,0
+TXN100175,2025-12-06T05:03:26,user63@upi,merchant42@upi,1688.25,True,False,False,intent,,,normal_payment,False,0.138,Tamil Nadu,0,4,0.0,0,False,False,False,0,0,0,0
+TXN100176,2025-12-04T13:35:43,user78@upi,user84@upi,3049.34,True,True,False,collect,,,normal_payment,True,0.213,Tamil Nadu,1,1,0.5,1,False,False,False,0,0,0,0
+TXN100177,2025-12-06T08:27:56,user84@upi,user41@upi,1323.98,True,False,True,collect,,,loan_offer_page,False,0.349,Delhi,2,0,2.0,0,True,False,False,0,0,0,0
+TXN100178,2025-12-02T11:05:37,user2@upi,user67@upi,1137.68,True,False,False,collect,,,normal_payment,True,0.109,Maharashtra,1,1,0.5,0,True,False,False,0,0,0,0
+TXN100179,2025-12-07T15:18:15,user66@upi,merchant36@upi,2478.88,True,True,False,qr,merchant36@upi,merchant36@upi,normal_payment,True,0.0,Maharashtra,0,3,0.0,0,True,True,False,0,0,0,0
+TXN100180,2025-12-04T20:10:31,user11@upi,merchant18@upi,464.36,False,False,False,qr,merchant18@upi,merchant18@upi,normal_payment,True,0.0,Haryana,3,5,0.5,0,False,True,False,0,0,0,0
+TXN100181,2025-12-07T21:35:33,user29@upi,merchant46@upi,2389.69,False,False,False,qr,merchant46@upi,merchant46@upi,screen_share_suspected,True,0.011,UP,1,3,0.25,0,False,True,True,0,0,0,0
+TXN100182,2025-12-02T09:35:18,user83@upi,merchant42@upi,2102.55,False,False,True,intent,,,normal_payment,True,0.003,Telangana,0,2,0.0,0,True,True,False,0,0,0,0
+TXN100183,2025-12-04T19:33:05,user25@upi,user69@upi,1852.56,False,True,False,intent,,,normal_payment,True,0.177,Telangana,0,2,0.0,1,True,True,True,0,0,0,0
+TXN100184,2025-12-06T04:58:54,user79@upi,merchant42@upi,3588.28,True,False,True,intent,,,normal_payment,True,0.022,Karnataka,1,3,0.25,0,False,True,True,0,0,0,0
+TXN100185,2025-12-04T19:15:54,user46@upi,user31@upi,1377.79,True,False,False,qr,user31@upi,,normal_payment,False,0.83,Gujarat,33,11,1.0,0,True,False,True,1,0,1,0
+TXN100186,2025-12-04T10:57:15,user24@upi,user59@upi,4060.3,True,False,True,collect,,,screen_share_suspected,True,0.084,Delhi,1,4,0.2,0,False,True,True,0,0,0,0
+TXN100187,2025-12-02T11:55:26,user34@upi,merchant29@upi,1774.57,False,True,True,mandate,,,normal_payment,True,0.134,Maharashtra,0,1,0.0,0,False,False,True,0,0,0,0
+TXN100188,2025-12-04T00:00:41,user53@upi,merchant25@upi,722.98,False,True,True,qr,fraud34@upi,merchant25@upi,loan_offer_page,True,0.964,UP,1,2,0.33,0,False,False,False,1,1,0,0
+TXN100189,2025-12-03T00:06:45,user76@upi,merchant2@upi,2069.92,False,True,True,collect,,,normal_payment,True,0.299,Karnataka,0,0,0.0,0,True,False,False,0,0,0,0
+TXN100190,2025-12-03T10:39:14,user60@upi,user40@upi,923.75,True,False,False,intent,,,normal_payment,True,0.759,Delhi,19,18,1.0,0,False,True,False,1,0,1,0
+TXN100191,2025-12-06T02:51:42,user93@upi,user39@upi,1248.24,False,True,True,intent,,,screen_share_suspected,False,0.131,UP,0,1,0.0,0,True,False,True,0,0,0,0
+TXN100192,2025-12-05T17:53:14,user86@upi,merchant9@upi,2397.03,False,False,True,qr,fraud47@upi,merchant9@upi,normal_payment,False,0.135,Delhi,0,1,0.0,0,False,True,True,0,0,0,0
+TXN100193,2025-12-05T14:00:32,user75@upi,merchant13@upi,2555.58,True,True,True,collect,,,normal_payment,False,0.249,UP,0,2,0.0,0,False,True,True,0,0,0,0
+TXN100194,2025-12-03T20:47:04,user60@upi,user3@upi,1377.83,True,True,True,mandate,,,screen_share_suspected,True,0.288,Haryana,1,2,0.33,1,True,False,True,0,0,0,0
+TXN100195,2025-12-08T01:13:42,user29@upi,merchant21@upi,2987.41,True,True,True,collect,,,normal_payment,True,0.064,Tamil Nadu,2,3,0.5,0,True,False,False,0,0,0,0
+TXN100196,2025-12-01T22:43:30,user41@upi,merchant16@upi,3157.51,False,True,True,mandate,,,normal_payment,False,0.205,Maharashtra,2,3,0.5,0,False,False,False,0,0,0,0
+TXN100197,2025-12-03T17:33:18,user12@upi,merchant21@upi,3436.3,False,True,True,mandate,,,loan_offer_page,False,0.0,Karnataka,0,1,0.0,0,False,True,False,0,0,0,0
+TXN100198,2025-12-02T03:49:29,user38@upi,user28@upi,2529.41,False,False,True,qr,user28@upi,,normal_payment,True,0.619,UP,39,17,1.0,1,False,False,False,1,0,1,0
+TXN100199,2025-12-03T16:56:33,user92@upi,user71@upi,3363.43,False,True,False,qr,fraud4@upi,merchant8@upi,normal_payment,True,0.722,Delhi,0,2,0.0,1,False,True,True,1,1,0,0
+TXN100200,2025-12-08T01:35:55,user43@upi,user98@upi,119.2,True,True,False,intent,,,screen_share_suspected,True,0.884,Gujarat,3,0,3.0,0,True,True,True,1,0,0,1
+TXN100201,2025-12-03T21:31:56,user12@upi,merchant49@upi,1682.09,False,True,False,mandate,,,normal_payment,False,0.472,Karnataka,2,1,1.0,0,True,True,True,0,0,0,0
+TXN100202,2025-12-07T16:38:29,user65@upi,user76@upi,1132.99,False,True,False,qr,user76@upi,,normal_payment,False,0.068,UP,1,1,0.5,0,False,True,True,0,0,0,0
+TXN100203,2025-12-04T19:10:15,user96@upi,user29@upi,2119.23,True,False,False,intent,,,refund_page,False,0.233,Telangana,0,2,0.0,0,True,True,False,0,0,0,0
+TXN100204,2025-12-06T05:33:02,user86@upi,user96@upi,1428.55,False,True,False,collect,,,normal_payment,False,0.195,Karnataka,2,1,1.0,0,True,True,True,0,0,0,0
+TXN100205,2025-12-04T12:50:46,user28@upi,user8@upi,1833.84,False,False,False,qr,user8@upi,,refund_page,True,0.185,Delhi,1,1,0.5,0,True,False,False,0,0,0,0
+TXN100206,2025-12-03T04:39:58,user45@upi,user12@upi,3882.17,False,True,False,collect,,,normal_payment,False,0.183,Tamil Nadu,0,1,0.0,0,True,True,True,0,0,0,0
+TXN100207,2025-12-06T16:23:25,user53@upi,merchant32@upi,1830.28,False,True,True,qr,merchant32@upi,merchant32@upi,normal_payment,True,0.216,UP,0,1,0.0,1,True,False,True,0,0,0,0
+TXN100208,2025-12-08T02:49:17,user25@upi,user55@upi,2413.79,False,False,True,mandate,,,normal_payment,True,0.327,Maharashtra,2,2,0.67,0,False,False,False,0,0,0,0
+TXN100209,2025-12-03T04:16:19,user27@upi,user11@upi,1767.73,True,True,True,collect,,,support_chat,False,0.407,Maharashtra,0,1,0.0,0,False,False,True,0,0,0,0
+TXN100210,2025-12-06T18:49:48,user24@upi,merchant49@upi,2075.71,True,True,False,qr,merchant49@upi,merchant49@upi,normal_payment,False,0.2,Tamil Nadu,0,1,0.0,0,True,True,False,0,0,0,0
+TXN100211,2025-12-03T03:52:17,user99@upi,user97@upi,2006.02,False,True,False,collect,,,normal_payment,True,0.322,Tamil Nadu,0,4,0.0,0,False,True,True,0,0,0,0
+TXN100212,2025-12-06T08:26:15,user74@upi,merchant37@upi,2448.32,False,False,True,qr,fraud27@upi,merchant37@upi,screen_share_suspected,False,0.777,Delhi,2,1,1.0,0,True,True,False,1,1,0,0
+TXN100213,2025-12-06T20:33:11,user84@upi,merchant15@upi,3165.31,False,False,False,qr,fraud48@upi,merchant15@upi,normal_payment,False,0.833,Haryana,1,0,1.0,0,True,False,False,1,1,0,0
+TXN100214,2025-12-04T11:29:33,user81@upi,user5@upi,3647.39,True,True,True,intent,,,normal_payment,True,0.668,Tamil Nadu,34,15,1.0,0,True,False,False,1,0,1,0
+TXN100215,2025-12-06T11:48:08,user95@upi,merchant43@upi,2309.62,True,True,False,collect,,,screen_share_suspected,True,0.364,Maharashtra,0,2,0.0,0,False,True,False,0,0,0,0
+TXN100216,2025-12-03T05:44:11,user11@upi,merchant49@upi,2589.55,True,True,False,qr,merchant49@upi,merchant49@upi,normal_payment,True,0.532,Maharashtra,5,3,1.25,0,False,True,False,0,0,0,0
+TXN100217,2025-12-01T21:18:52,user88@upi,user24@upi,849.14,False,True,True,qr,user24@upi,,normal_payment,False,0.182,Tamil Nadu,1,1,0.5,0,False,True,True,0,0,0,0
+TXN100218,2025-12-02T00:11:37,user7@upi,user41@upi,1912.12,False,False,False,qr,fraud23@upi,merchant15@upi,normal_payment,False,0.751,Maharashtra,0,1,0.0,0,False,False,True,1,1,0,0
+TXN100219,2025-12-04T11:05:59,user48@upi,merchant11@upi,2940.29,False,True,False,intent,,,screen_share_suspected,False,0.888,Tamil Nadu,0,1,0.0,1,True,True,True,1,0,0,1
+TXN100220,2025-12-07T15:38:13,user59@upi,user55@upi,2865.97,False,False,True,intent,,,normal_payment,False,0.385,Haryana,0,1,0.0,0,False,False,False,0,0,0,0
+TXN100221,2025-12-02T05:25:58,user36@upi,user45@upi,2211.61,False,True,False,qr,user45@upi,,support_chat,False,0.661,Telangana,38,6,1.0,0,False,True,False,1,0,1,0
+TXN100222,2025-12-04T12:34:13,user15@upi,merchant41@upi,2886.39,True,True,True,qr,merchant41@upi,merchant41@upi,normal_payment,True,0.237,Karnataka,2,2,0.67,0,True,False,True,0,0,0,0
+TXN100223,2025-12-06T06:16:38,user20@upi,merchant47@upi,2490.77,False,True,False,collect,,,support_chat,False,0.351,Telangana,0,1,0.0,0,True,True,False,0,0,0,0
+TXN100224,2025-12-02T17:59:49,user82@upi,merchant3@upi,3200.31,True,True,False,qr,merchant3@upi,merchant3@upi,screen_share_suspected,True,0.273,Maharashtra,1,2,0.33,0,True,False,False,0,0,0,0
+TXN100225,2025-12-06T09:13:53,user32@upi,user76@upi,2289.36,True,False,True,qr,user76@upi,,refund_page,True,0.383,Karnataka,0,5,0.0,0,False,False,False,0,0,0,0
+TXN100226,2025-12-03T11:24:02,user31@upi,user71@upi,1644.3,True,False,False,mandate,,,support_chat,True,0.338,Gujarat,0,3,0.0,0,False,True,False,0,0,0,0
+TXN100227,2025-12-06T23:51:18,user92@upi,user74@upi,2335.84,False,False,True,qr,user74@upi,,support_chat,False,0.428,UP,0,2,0.0,0,True,False,False,0,0,0,0
+TXN100228,2025-12-05T09:18:31,user15@upi,user74@upi,50.0,True,True,True,qr,fraud49@upi,merchant5@upi,loan_offer_page,False,0.765,Tamil Nadu,0,1,0.0,0,False,False,True,1,1,0,0
+TXN100229,2025-12-05T03:52:49,user91@upi,merchant45@upi,2382.89,False,False,True,qr,merchant45@upi,merchant45@upi,normal_payment,True,0.336,Karnataka,3,3,0.75,0,False,True,False,0,0,0,0
+TXN100230,2025-12-02T13:41:52,user92@upi,user24@upi,50.0,False,True,False,collect,,,normal_payment,False,0.154,Karnataka,2,1,1.0,0,True,False,True,0,0,0,0
+TXN100231,2025-12-04T13:49:06,user60@upi,user44@upi,276.54,False,False,True,collect,,,normal_payment,True,0.11,UP,1,2,0.33,0,True,True,False,0,0,0,0
+TXN100232,2025-12-07T07:54:40,user17@upi,merchant1@upi,2451.77,False,False,True,collect,,,normal_payment,False,0.456,Telangana,1,1,0.5,0,True,False,False,0,0,0,0
+TXN100233,2025-12-01T11:16:48,user16@upi,user53@upi,2477.53,True,False,True,qr,user53@upi,,normal_payment,False,0.232,Haryana,1,4,0.2,0,False,False,True,0,0,0,0
+TXN100234,2025-12-06T15:25:52,user29@upi,merchant2@upi,837.57,True,False,False,intent,,,refund_page,True,0.321,Tamil Nadu,0,3,0.0,0,False,False,True,0,0,0,0
+TXN100235,2025-12-04T18:47:02,user58@upi,user61@upi,1287.9,True,False,True,collect,,,normal_payment,True,0.219,Telangana,0,5,0.0,0,False,False,False,0,0,0,0
+TXN100236,2025-12-06T08:52:11,user16@upi,merchant33@upi,3370.54,False,False,False,qr,merchant33@upi,merchant33@upi,screen_share_suspected,False,0.112,Tamil Nadu,1,1,0.5,0,True,False,False,0,0,0,0
+TXN100237,2025-12-05T23:26:02,user46@upi,user52@upi,1515.97,False,True,True,qr,user52@upi,,normal_payment,True,0.745,UP,38,17,1.0,0,False,True,True,1,0,1,0
+TXN100238,2025-12-04T08:35:29,user12@upi,user35@upi,4242.92,True,True,False,qr,user35@upi,,normal_payment,False,0.415,Gujarat,0,2,0.0,0,False,False,False,0,0,0,0
+TXN100239,2025-12-03T11:51:21,user54@upi,merchant35@upi,1998.08,False,True,True,mandate,,,normal_payment,True,0.283,UP,3,1,1.5,0,False,False,True,0,0,0,0
+TXN100240,2025-12-05T17:23:16,user3@upi,merchant29@upi,2408.04,True,False,True,collect,,,normal_payment,True,0.0,Gujarat,0,3,0.0,0,False,True,False,0,0,0,0
+TXN100241,2025-12-02T07:33:27,user71@upi,merchant27@upi,3616.87,True,True,False,intent,,,normal_payment,True,0.168,UP,1,2,0.33,0,False,False,True,0,0,0,0
+TXN100242,2025-12-05T10:07:42,user6@upi,merchant44@upi,2131.03,True,True,True,collect,,,normal_payment,True,0.467,UP,2,2,0.67,0,True,False,False,0,0,0,0
+TXN100243,2025-12-01T23:54:31,user20@upi,merchant34@upi,997.66,True,True,True,qr,fraud17@upi,merchant34@upi,normal_payment,False,0.95,Haryana,2,3,0.5,0,True,True,True,1,1,0,0
+TXN100244,2025-12-05T21:10:27,user18@upi,user34@upi,1890.27,False,False,False,intent,,,normal_payment,True,0.0,Gujarat,1,1,0.5,0,True,True,True,0,0,0,0
+TXN100245,2025-12-05T17:37:45,user83@upi,user53@upi,1964.39,False,True,False,intent,,,normal_payment,False,0.484,Tamil Nadu,1,2,0.33,0,False,False,False,0,0,0,0
+TXN100246,2025-12-01T22:11:11,user6@upi,merchant49@upi,635.26,False,True,True,intent,,,normal_payment,False,0.302,Telangana,0,1,0.0,0,True,False,False,0,0,0,0
+TXN100247,2025-12-06T15:15:28,user43@upi,merchant27@upi,1744.17,False,False,False,qr,fraud1@upi,merchant27@upi,normal_payment,False,0.189,UP,1,4,0.2,0,True,False,True,0,0,0,0
+TXN100248,2025-12-04T05:51:20,user59@upi,merchant7@upi,1257.81,False,False,False,collect,,,normal_payment,False,0.144,Karnataka,0,2,0.0,0,False,True,True,0,0,0,0
+TXN100249,2025-12-06T20:11:48,user52@upi,user85@upi,2924.36,True,True,True,collect,,,normal_payment,True,0.362,UP,1,1,0.5,0,True,False,False,0,0,0,0
+TXN100250,2025-12-01T14:59:28,user68@upi,merchant35@upi,2034.61,False,False,False,qr,merchant35@upi,merchant35@upi,normal_payment,False,0.119,Delhi,1,4,0.2,0,False,True,True,0,0,0,0
+TXN100251,2025-12-02T14:08:55,user80@upi,merchant25@upi,1717.2,True,False,True,intent,,,normal_payment,False,0.372,Karnataka,0,4,0.0,0,True,False,True,0,0,0,0
+TXN100252,2025-12-04T18:59:25,user39@upi,merchant45@upi,1893.82,True,True,False,qr,merchant45@upi,merchant45@upi,support_chat,False,0.281,Karnataka,0,3,0.0,0,False,False,False,0,0,0,0
+TXN100253,2025-12-02T15:37:18,user82@upi,merchant6@upi,2223.12,True,False,True,mandate,,,loan_offer_page,True,0.237,UP,2,5,0.33,0,False,True,True,0,0,0,0
+TXN100254,2025-12-03T15:25:00,user32@upi,merchant18@upi,2616.81,False,False,False,mandate,,,screen_share_suspected,True,0.222,Telangana,2,4,0.4,0,False,False,False,0,0,0,0
+TXN100255,2025-12-05T22:58:50,user98@upi,merchant28@upi,1000.29,True,False,True,mandate,,,normal_payment,True,0.174,UP,3,3,0.75,0,True,False,True,0,0,0,0
+TXN100256,2025-12-02T08:16:48,user50@upi,merchant1@upi,958.41,False,True,True,qr,merchant1@upi,merchant1@upi,normal_payment,False,0.357,Haryana,1,0,1.0,0,False,True,False,0,0,0,0
+TXN100257,2025-12-06T01:51:14,user73@upi,user88@upi,3104.68,False,False,False,qr,user88@upi,,normal_payment,False,0.07,Karnataka,0,4,0.0,0,True,True,True,0,0,0,0
+TXN100258,2025-12-02T01:22:18,user87@upi,merchant17@upi,1587.66,False,True,False,qr,fraud49@upi,merchant17@upi,support_chat,True,0.893,Gujarat,31,25,1.0,0,False,False,True,1,0,1,0
+TXN100259,2025-12-02T13:25:51,user79@upi,user96@upi,583.16,False,False,True,qr,user96@upi,,support_chat,True,0.292,Karnataka,0,2,0.0,0,True,True,True,0,0,0,0
+TXN100260,2025-12-05T10:43:27,user85@upi,merchant37@upi,2443.81,False,True,True,qr,merchant37@upi,merchant37@upi,support_chat,True,0.295,Tamil Nadu,0,0,0.0,0,False,True,True,0,0,0,0
+TXN100261,2025-12-06T21:18:18,user54@upi,merchant17@upi,2463.37,False,True,True,qr,fraud17@upi,merchant17@upi,screen_share_suspected,True,0.962,Tamil Nadu,0,2,0.0,0,False,True,True,1,1,0,0
+TXN100262,2025-12-02T12:39:34,user5@upi,merchant44@upi,469.28,True,True,False,mandate,,,normal_payment,True,0.261,Telangana,2,1,1.0,0,False,False,True,0,0,0,0
+TXN100263,2025-12-03T10:23:55,user49@upi,merchant44@upi,2229.48,False,True,True,qr,merchant44@upi,merchant44@upi,screen_share_suspected,True,0.852,Delhi,0,2,0.0,0,True,True,True,1,0,0,1
+TXN100264,2025-12-07T19:25:12,user18@upi,merchant45@upi,2735.58,False,False,True,qr,merchant45@upi,merchant45@upi,screen_share_suspected,False,0.751,Maharashtra,1,0,1.0,0,True,True,True,1,0,0,1
+TXN100265,2025-12-08T06:16:00,user89@upi,user22@upi,2374.39,True,True,False,collect,,,normal_payment,False,0.193,Delhi,2,1,1.0,0,False,True,False,0,0,0,0
+TXN100266,2025-12-05T09:37:05,user24@upi,user59@upi,2631.98,True,True,False,intent,,,screen_share_suspected,False,0.127,Tamil Nadu,2,1,1.0,0,True,True,False,0,0,0,0
+TXN100267,2025-12-04T11:06:08,user23@upi,merchant42@upi,595.73,True,True,False,collect,,,normal_payment,False,0.798,Maharashtra,13,22,1.0,0,False,False,True,1,0,1,0
+TXN100268,2025-12-03T18:16:26,user25@upi,merchant12@upi,2331.04,False,True,True,intent,,,loan_offer_page,False,0.503,Telangana,0,2,0.0,1,False,True,True,0,0,0,0
+TXN100269,2025-12-05T14:53:30,user64@upi,merchant18@upi,1697.38,True,True,False,collect,,,support_chat,True,0.0,Maharashtra,1,0,1.0,0,False,False,False,0,0,0,0
+TXN100270,2025-12-05T11:16:25,user57@upi,merchant43@upi,1517.21,True,False,False,intent,,,normal_payment,False,0.601,Karnataka,13,6,1.0,0,True,False,False,1,0,1,0
+TXN100271,2025-12-03T09:31:06,user94@upi,merchant13@upi,2870.56,False,False,True,intent,,,refund_page,False,0.0,Maharashtra,2,5,0.33,1,False,True,True,0,0,0,0
+TXN100272,2025-12-01T11:49:51,user42@upi,user79@upi,3479.27,False,False,False,collect,,,normal_payment,False,0.184,Tamil Nadu,0,5,0.0,0,True,True,True,0,0,0,0
+TXN100273,2025-12-02T09:27:06,user28@upi,merchant43@upi,3794.37,True,False,True,intent,,,support_chat,False,0.135,UP,0,4,0.0,0,False,True,True,0,0,0,0
+TXN100274,2025-12-08T01:02:16,user5@upi,user48@upi,3314.81,False,True,True,qr,user48@upi,,support_chat,False,0.0,Delhi,1,0,1.0,0,True,True,False,0,0,0,0
+TXN100275,2025-12-04T06:15:00,user1@upi,user26@upi,1890.27,False,True,True,intent,,,refund_page,False,0.258,Gujarat,3,0,3.0,0,False,True,False,0,0,0,0
+TXN100276,2025-12-04T17:01:37,user37@upi,user81@upi,2352.72,True,False,True,qr,user81@upi,,screen_share_suspected,True,0.758,Gujarat,0,1,0.0,0,True,True,True,1,0,0,1
+TXN100277,2025-12-04T14:28:26,user92@upi,user47@upi,2766.82,True,False,True,collect,,,normal_payment,True,0.0,UP,0,3,0.0,0,True,True,True,0,0,0,0
+TXN100278,2025-12-06T19:29:58,user52@upi,merchant10@upi,2121.18,True,True,True,qr,merchant10@upi,merchant10@upi,normal_payment,False,0.326,UP,1,1,0.5,0,False,False,True,0,0,0,0
+TXN100279,2025-12-01T18:54:45,user89@upi,merchant21@upi,2130.76,True,True,True,qr,fraud22@upi,merchant21@upi,normal_payment,True,0.415,Karnataka,0,2,0.0,0,False,False,True,0,0,0,0
+TXN100280,2025-12-01T21:53:55,user11@upi,user65@upi,2823.75,True,True,False,qr,fraud32@upi,merchant31@upi,normal_payment,True,0.92,Delhi,0,2,0.0,0,True,False,False,1,1,0,0
+TXN100281,2025-12-03T06:20:32,user10@upi,merchant46@upi,1940.72,False,True,False,collect,,,normal_payment,True,0.947,UP,12,12,1.0,0,False,False,False,1,0,1,0
+TXN100282,2025-12-04T17:45:30,user83@upi,merchant22@upi,1270.71,False,True,True,qr,fraud49@upi,merchant22@upi,normal_payment,False,0.88,Maharashtra,15,7,1.0,0,True,False,True,1,0,1,0
+TXN100283,2025-12-06T00:44:55,user11@upi,user74@upi,1585.53,True,True,False,intent,,,normal_payment,True,0.399,Haryana,3,1,1.5,0,False,True,True,0,0,0,0
+TXN100284,2025-12-04T18:26:19,user6@upi,merchant6@upi,2633.91,False,False,True,collect,,,normal_payment,False,0.452,Karnataka,2,2,0.67,1,False,True,False,0,0,0,0
+TXN100285,2025-12-04T10:06:58,user41@upi,merchant29@upi,2002.99,False,True,True,qr,merchant29@upi,merchant29@upi,screen_share_suspected,False,0.636,Tamil Nadu,26,26,1.0,0,False,False,True,1,0,1,0
+TXN100286,2025-12-07T21:33:17,user92@upi,merchant4@upi,2340.21,True,False,True,collect,,,normal_payment,False,0.059,Karnataka,0,1,0.0,0,False,False,True,0,0,0,0
+TXN100287,2025-12-02T11:03:04,user69@upi,merchant39@upi,2670.08,True,False,False,qr,merchant39@upi,merchant39@upi,screen_share_suspected,True,0.23,Karnataka,0,1,0.0,0,False,True,False,0,0,0,0
+TXN100288,2025-12-05T08:03:01,user10@upi,merchant16@upi,1625.16,False,False,False,qr,fraud20@upi,merchant16@upi,normal_payment,False,0.835,Gujarat,0,2,0.0,0,True,False,True,1,1,0,0
+TXN100289,2025-12-05T03:05:49,user83@upi,merchant32@upi,2756.25,False,False,False,intent,,,normal_payment,False,0.0,Maharashtra,0,0,0.0,0,True,True,True,0,0,0,0
+TXN100290,2025-12-04T15:32:46,user84@upi,merchant19@upi,2378.84,True,False,True,mandate,,,normal_payment,False,0.27,Delhi,2,1,1.0,0,False,True,True,0,0,0,0
+TXN100291,2025-12-06T23:40:34,user80@upi,user45@upi,765.19,False,True,True,qr,user45@upi,,normal_payment,False,0.541,Delhi,1,2,0.33,0,True,False,False,0,0,0,0
+TXN100292,2025-12-03T04:51:06,user90@upi,merchant11@upi,3442.3,True,True,True,intent,,,normal_payment,True,0.296,Maharashtra,1,1,0.5,0,True,True,True,0,0,0,0
+TXN100293,2025-12-08T00:14:01,user24@upi,merchant12@upi,1499.26,True,False,True,qr,merchant12@upi,merchant12@upi,screen_share_suspected,False,0.766,Tamil Nadu,0,2,0.0,0,True,True,True,1,0,0,1
+TXN100294,2025-12-03T15:42:12,user97@upi,merchant21@upi,344.9,True,True,True,intent,,,normal_payment,False,0.227,Gujarat,1,2,0.33,0,False,True,True,0,0,0,0
+TXN100295,2025-12-05T03:33:38,user32@upi,merchant21@upi,954.96,False,False,True,intent,,,normal_payment,False,0.189,Maharashtra,2,1,1.0,0,True,False,False,0,0,0,0
+TXN100296,2025-12-04T23:28:22,user80@upi,merchant43@upi,978.95,True,False,False,intent,,,normal_payment,False,0.257,Gujarat,1,5,0.17,0,False,True,True,0,0,0,0
+TXN100297,2025-12-07T06:45:45,user58@upi,merchant14@upi,2052.17,False,True,True,intent,,,normal_payment,False,0.078,Gujarat,0,2,0.0,0,True,True,True,0,0,0,0
+TXN100298,2025-12-04T09:44:13,user78@upi,merchant24@upi,1726.15,True,False,False,qr,merchant24@upi,merchant24@upi,support_chat,True,0.055,UP,0,1,0.0,0,True,False,False,0,0,0,0
+TXN100299,2025-12-03T07:48:21,user63@upi,merchant28@upi,1663.17,False,True,True,intent,,,normal_payment,False,0.39,UP,0,2,0.0,0,False,True,False,0,0,0,0
+TXN100300,2025-12-01T11:37:50,user64@upi,user78@upi,2619.7,False,True,True,intent,,,loan_offer_page,False,0.406,Telangana,1,1,0.5,0,False,True,False,0,0,0,0
