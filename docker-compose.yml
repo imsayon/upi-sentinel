@@ -1,40 +1,101 @@
 version: "3.8"
 
 services:
-    # --- Service 1: PostgreSQL Database ---
-    db:
-        image: postgres:15
-        container_name: upi_sentinel_db
-        restart: always
-        environment:
-            POSTGRES_USER: postgres
-            POSTGRES_PASSWORD: password123 # Change this for prod
-            POSTGRES_DB: upi_sentinel_db
-        ports:
-            - "5432:5432"
-        volumes:
-            # 1. This loads your CSV data (as SQL) automatically on first startup!
-            - ./upi_sentinel_seed.sql:/docker-entrypoint-initdb.d/init.sql
-            # 2. This saves your data so it doesn't disappear when you stop Docker
-            - postgres_data:/var/lib/postgresql/data
+  # --- Service 1: PostgreSQL Database ---
+  db:
+    image: postgres:15
+    container_name: rakshanet_db
+    restart: always
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-password123}
+      POSTGRES_DB: ${POSTGRES_DB:-upi_sentinel_db}
+    ports:
+      - "${DB_PORT:-5433}:5432"
+    volumes:
+      - ./upi.sentinel.sql:/docker-entrypoint-initdb.d/init.sql
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - rakshanet
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
-    # --- Service 2: Node.js Backend ---
-    api:
-        build: . # Build from the current directory (Dockerfile)
-        container_name: upi_sentinel_api
-        restart: always
-        ports:
-            - "3000:3000" # Maps container port 3000 to your machine's 3000
-        depends_on:
-            - db # Waits for DB to start before starting API
-        environment:
-            # The hostname is 'db' (the service name above), NOT 'localhost'
-            - DB_HOST=db
-            - DB_USER=postgres
-            - DB_PASS=password123
-            - DB_NAME=upi_sentinel_db
-            - DB_PORT=5432
+  # --- Service 2: Python ML Engine (FastAPI) ---
+  ml_engine:
+    build:
+      context: ./ml-model
+      dockerfile: Dockerfile
+    container_name: rakshanet_ml_engine
+    restart: always
+    ports:
+      - "${ML_PORT:-8000}:8000"
+    environment:
+      - MODEL_PATH=/app/upi_fraud_risk_models.pkl
+      - PYTHONUNBUFFERED=1
+    networks:
+      - rakshanet
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # --- Service 3: Node.js Backend API ---
+  api:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: rakshanet_api
+    restart: always
+    ports:
+      - "${API_PORT:-3000}:3000"
+    depends_on:
+      db:
+        condition: service_healthy
+      ml_engine:
+        condition: service_healthy
+    environment:
+      - NODE_ENV=${NODE_ENV:-production}
+      - DB_HOST=db
+      - DB_USER=${POSTGRES_USER:-postgres}
+      - DB_PASS=${POSTGRES_PASSWORD:-password123}
+      - DB_NAME=${POSTGRES_DB:-upi_sentinel_db}
+      - DB_PORT=5432
+      - ML_API_URL=http://ml_engine:8000
+      - PORT=3000
+      - CORS_ORIGIN=${CORS_ORIGIN:-*}
+    networks:
+      - rakshanet
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # --- Service 4: Nginx Frontend Client ---
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    container_name: rakshanet_client
+    restart: always
+    ports:
+      - "${CLIENT_PORT:-80}:80"
+    depends_on:
+      - api
+    environment:
+      - API_URL=http://api:3000
+    networks:
+      - rakshanet
+
+networks:
+  rakshanet:
+    driver: bridge
 
 volumes:
-    postgres_data:
-    # This volume stores PostgreSQL data persistently
+  postgres_data:
+    driver: local
